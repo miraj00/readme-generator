@@ -11,9 +11,53 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
 
+// title: 'miraj',
+// description: 'pp',
+// languages: [ 'HTML', 'CSS', 'Javascript', 'Bootstrap' ],
+// tableofcontent: 'sdssss',
+// install: '   sassass',
+// usage: 'sassxss',
+// Licenses: 'sssss',
+// contributors: 'ssss',
+// username: 'kkkk',
+// email: 'miraj00@gmail.com'
+// }
+
+
+function generateMarkdown(data) {
+
+  const { title, description, ...otherinfo } = data;
+ 
+  return `
+  
+  ### ${title}
+  
+  ## Description : 
+  ${description}
+  
+  # Languages used : 
+  ${otherinfo.languages[i]}
+  
+  # Table of Content :
+  ${otherinfo.tableofcontent} 
+  
+  # How to Install :
+  ${otherinfo.install}
+  
+  # How to use the application :
+  ${otherinfo.usage}
+  
+  # Lincenses :
+  ${otherinfo.Licenses}
+    
+  # Contributors :
+  ${otherinfo.contributors}
+  
+  # Questions :
+    * You can check my Github Repository at : https://github.com/${otherinfo.username}  
+    * You can reach me by emailing me at : ${otherinfo.email}
+  
 `;
 }
 
