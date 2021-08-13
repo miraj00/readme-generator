@@ -66,6 +66,12 @@ promptUser()
     .then(readmeData => {
         return generatePage(readmeData); 
     })
+    .then (readmeFile => {
+     return fs.writeFile(readmeFile); 
+    })
+    .then(writeFileResponse => {
+        console.log(writeFileResponse);
+    })
     .catch (err => {
         console.log(err);
     }); 
@@ -76,12 +82,12 @@ promptUser()
 
 // const readMe = generatePage(answers);
 
-fs.writeFile('README.md', answersData, err => {
+// fs.writeFile('README.md', answersData, err => {
     
-         if (err) throw err;
+//          if (err) throw err;
            
-         console.log('README file complete! Check out README.md to see the output!');
-       });
+//          console.log('README file complete! Check out README.md to see the output!');
+//        });
 
 
 // TODO: Create a function to initialize app
