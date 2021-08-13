@@ -31,15 +31,15 @@ function generateMarkdown(data) {
  
   return `
   
-  ### ${title}
+  # ${title}
   
   ## Description : 
   ${description}
   
-  # Languages used : 
-  ${otherinfo.languages[i]}
+  ### Languages used : 
+  ${otherinfo.languages.join(',')}
   
-  # Table of Content :
+  ### Table of Content :
   ${otherinfo.tableofcontent} 
   
   # How to Install :

@@ -60,25 +60,25 @@ const promptUser = () => {
    ]);
 };
 
-promptUser()
-    .then(data)   // => console.log(data));
-    
-    .then(answersData => {
-        return generatePage(answersData); 
-    })
-
 
  
 
 // TODO: Create a function to write README file
 //function writeToFile(fileName, data) {}
 
-fs.writeFile('README.md', generatePage(answersData), err => {
-   if (err) throw err;
-})
+
     
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    promptUser()
+    .then(answersData => {
+        fs.writeFile('README.md', generatePage(answersData), err => {
+            if (err) throw err;
+         
+
+    })
+})
+}
 
 // Function call to initialize app
 init();
