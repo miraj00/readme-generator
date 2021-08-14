@@ -1,42 +1,47 @@
 
-  # National Park  Trip Planner
+  # National Park
 
   ## Table of Content :
 
-  *[Description](https://github.com/miraj00/readme-generator#description-) 
-  *[Languages Used](https://github.com/miraj00/readme-generator#languages-used-)
-  *[How to Install](https://github.com/miraj00/readme-generator#how-to-install-)
-  *[How to use the application](https://github.com/miraj00/readme-generator#how-to-use-the-application-)
-  *[Licenses](https://github.com/miraj00/readme-generator#lincenses-)
-  *[Contributors](https://github.com/miraj00/readme-generator#lincenses-)
-  *[Questions / Reach Me at](https://github.com/miraj00/readme-generator#questions-)
+  1. [Description](https://github.com/miraj00/readme-generator#description-) 
+
+  2. [Languages Used](https://github.com/miraj00/readme-generator#languages-used-)
+  
+  3. [How to Install](https://github.com/miraj00/readme-generator#how-to-install-)
+  
+  4. [How to use the application](https://github.com/miraj00/readme-generator#how-to-use-the-application-)
+  
+  5. [Licenses](https://github.com/miraj00/readme-generator#lincenses-)
+  
+  6. [Contributors](https://github.com/miraj00/readme-generator#lincenses-)
+  
+  7. [Questions / Reach Me](https://github.com/miraj00/readme-generator#questions-)
   
  
-  [//]: <> (start placeholder for auto-badger)
 
   ## Description : 
-  Its API based project and mainly involves Javascript
+  national park is API based application that shows realtime data for campers and hikers
   
   ## Languages used : 
-  
+  HTML, ES6, Bootstrap
   
   ## How to Install :
-  First download files and then run and save
+  dfffffffffffffff
   
   ## How to use the application :
-  use to get current weather and park info
+  use it before travel and during travel
 
   ## Screenshot of the Project :
   ![Screenshot](assets/images/screenshot.JPG)
   
   ## Lincenses :  
-   https://img.shields.io/badge/License-{x}-green   
+  [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
      
   ## Contributors :
-  miraj, ronnie, jessica, Walter
+  miraj, ronnie, jessica, walter
   
   ## Questions :
-    * You can check my Github Repository at : https://github.com/miraj00  
+    * You can check my Github Repository at : [Github](https://github.com/miraj00)  
     * You can reach me by emailing me at : miraj00@gmail.com
   
   

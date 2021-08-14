@@ -3,24 +3,24 @@ choices: [ 'MIT', 'Apache', 'GPL', 'Apache-2.0', 'BSD']
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 
-function renderLicenseBadge(data) {
-
+function renderLicenseBadge(license) {
+     console.log(license);
   
  
- if (otherinfo.license == 'MIT') {
-     return x = '[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+ if (license == 'MIT') {
+     return '[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
  }
-if (otherinfo.license == 'GPL') {
-     return x = '[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
+if (license == 'GPL') {
+     return '[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
 }
-if (otherinfo.license == 'Apache-2.0') {
-     return x = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+if (license == 'Apache-2.0') {
+     return '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
 }
-if (otherinfo.license == 'BSD') {
-     return x = '[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)';
+if (license == 'BSD') {
+     return '[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)';
 }
-if (otherinfo.license == 'Other') {
-     return x = '';
+if (license == 'Other') {
+     return '';
 }
 }
 
@@ -40,26 +40,28 @@ function generateMarkdown(data) {
 
   const { title, description, ...otherinfo } = data;
    
-  renderLicenseBadge();
+  const license = otherinfo.license;
+  const licenseBadge = renderLicenseBadge(license);
+  console.log(licenseBadge);
  
   return `
   # ${title}
 
   ## Table of Content :
 
-  - [Description](https://github.com/miraj00/readme-generator#description-) 
+  1. [Description](https://github.com/miraj00/readme-generator#description-) 
 
-  - [Languages Used](https://github.com/miraj00/readme-generator#languages-used-)
+  2. [Languages Used](https://github.com/miraj00/readme-generator#languages-used-)
   
-  - [How to Install](https://github.com/miraj00/readme-generator#how-to-install-)
+  3. [How to Install](https://github.com/miraj00/readme-generator#how-to-install-)
   
-  - [How to use the application](https://github.com/miraj00/readme-generator#how-to-use-the-application-)
+  4. [How to use the application](https://github.com/miraj00/readme-generator#how-to-use-the-application-)
   
-  - [Licenses](https://github.com/miraj00/readme-generator#lincenses-)
+  5. [Licenses](https://github.com/miraj00/readme-generator#lincenses-)
   
-  - [Contributors](https://github.com/miraj00/readme-generator#lincenses-)
+  6. [Contributors](https://github.com/miraj00/readme-generator#lincenses-)
   
-  - [Questions / Reach Me at](https://github.com/miraj00/readme-generator#questions-)
+  7. [Questions / Reach Me](https://github.com/miraj00/readme-generator#questions-)
   
  
 
@@ -79,13 +81,13 @@ function generateMarkdown(data) {
   ![Screenshot](assets/images/screenshot.JPG)
   
   ## Lincenses :  
-   ${x}
+  ${licenseBadge}
      
   ## Contributors :
   ${otherinfo.contributors}
   
   ## Questions :
-    * You can check my Github Repository at : https://github.com/${otherinfo.username}  
+    * You can check my GITHUB REPOSITORY by Clicking Here : [Github](https://github.com/${otherinfo.username})  
     * You can reach me by emailing me at : ${otherinfo.email}
   
   
