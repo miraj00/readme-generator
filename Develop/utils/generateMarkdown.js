@@ -3,35 +3,35 @@ choices: [ 'MIT', 'Apache', 'GPL', 'Apache-2.0', 'BSD']
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 
-function renderLicenseBadge(answersData) {
- if (answersData.name == 'MIT') {
-     return x = 'MIT';
+function renderLicenseBadge(data) {
+
+  
+ 
+ if (otherinfo.license == 'MIT') {
+     return x = '[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
  }
-if (answersData.name == 'Apache') {
-     return x = 'Apache';
+if (otherinfo.license == 'GPL') {
+     return x = '[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
 }
-if (answersData.name == 'GPL') {
-     return x = 'GPL';
+if (otherinfo.license == 'Apache-2.0') {
+     return x = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
 }
-if (answersData.name == 'Apache-2.0') {
-     return x = 'Apache-2.0';
+if (otherinfo.license == 'BSD') {
+     return x = '[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)';
 }
-if (answersData.name == 'BSD') {
-     return x = 'BSD';
-}
-if (answersData.name == 'Other') {
-  return x = '';
+if (otherinfo.license == 'Other') {
+     return x = '';
 }
 }
+
+
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+// function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-
+// function renderLicenseSection(license) {}
 
 
 
@@ -79,7 +79,7 @@ function generateMarkdown(data) {
   ![Screenshot](assets/images/screenshot.JPG)
   
   ## Lincenses :  
-   https://img.shields.io/badge/License-${x}-green   
+   ${x}
      
   ## Contributors :
   ${otherinfo.contributors}
