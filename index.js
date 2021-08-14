@@ -22,11 +22,6 @@ const promptUser = () => {
     message: 'What coding languages or modules you used with this project ? (check all that apply)',
     choices: [ 'HTML', 'CSS', 'Javascript', 'ES6', 'JQuery', 'Bootstrap', 'Node', 'APIs'] 
 },
-{ 
-    type: 'input',
-    name: 'tableofcontent',
-    message: 'Please enter Table of Contents :',
-},
 {
     type: 'input',
     name: 'install',
@@ -38,9 +33,10 @@ const promptUser = () => {
     message: 'Please Enter How to Use this application :',
 },
 { 
-    type: 'input',
-    name: 'Licenses',
-    message: 'Please enter Licenses if any :',
+    type: 'list',
+    name: 'license',
+    message: 'Please select Licenses From List Below :',
+    choices: [ 'MIT', 'Apache', 'GPL', 'Apache-2.0', 'BSD', 'Other'] 
 },
 {
     type: 'input',
@@ -61,23 +57,14 @@ const promptUser = () => {
 };
 
 
- 
-
-// TODO: Create a function to write README file
-//function writeToFile(fileName, data) {}
-
-
-    
-// TODO: Create a function to initialize app
+// Create a function to write README file
 function init() {
     promptUser()
     .then(answersData => {
         fs.writeFile('README.md', generatePage(answersData), err => {
             if (err) throw err;
-         
-
     })
-})
+  })
 }
 
 // Function call to initialize app
