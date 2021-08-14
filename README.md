@@ -32,7 +32,7 @@
   Use the Drop down menus on the left to select State and Park that you are looking to search for and it will show park information and weather
 
   ## Screenshot of the Project :
-  ![Screenshot](assets/images/screenshot.JPG)
+  ![Screenshot](./screenshot.JPG)
   
   ## Lincenses :  
   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
