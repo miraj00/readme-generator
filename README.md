@@ -44,6 +44,10 @@ README Generator is node.js based application. It works by asking series of ques
 You can use this application to generate README file. Once you follow the installation process as described above, go to command line and enter ' node index.js ' and it will go thru questionairie that will require input about your project. Upon finishing that questionairie it will generate readme file in ' dist folder '. To add screenshot in your project, create JPG file with the file name 'screenshot.JPG' and add in 'dist folder' along with README file. 
   
 
+## Demo of how to install, answers Questionairre and Use the output of README file :
+![Demo](video1.gif)
+
+
 ## Screenshot of the Project :
 
 #### Screenshot of command-line Questionairies :
