@@ -61,7 +61,7 @@ const promptUser = () => {
 function init() {
     promptUser()
     .then(answersData => {
-        fs.writeFile('README.md', generatePage(answersData), err => {
+        fs.writeFile('./dist/README.md', generatePage(answersData), err => {
             if (err) throw err;
     })
   })

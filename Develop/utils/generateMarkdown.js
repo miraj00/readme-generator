@@ -78,7 +78,7 @@ function generateMarkdown(data) {
   ${otherinfo.usage}
 
   ## Screenshot of the Project :
-  ![Screenshot](assets/images/screenshot.JPG)
+  ![Screenshot](./screenshot.JPG)
   
   ## Lincenses :  
   ${licenseBadge}
@@ -86,8 +86,8 @@ function generateMarkdown(data) {
   ## Contributors :
   ${otherinfo.contributors}
   
-  ## Questions :
-    * You can check my GITHUB REPOSITORY by Clicking Here : [Github](https://github.com/${otherinfo.username})  
+  ## Questions / Reach Me :
+    * You can check my GITHUB REPOSITORY by Clicking Here : https://github.com/${otherinfo.username}  
     * You can reach me by emailing me at : ${otherinfo.email}
   
   
