@@ -45,7 +45,7 @@ function generateMarkdown(data) {
   console.log(licenseBadge);
  
   return `
-  # ${title}
+  # ${title}     * ${licenseBadge}
 
   ## Table of Content :
 

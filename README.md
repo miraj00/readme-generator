@@ -1,47 +1,62 @@
+# README Generator
 
-  # National Park Trip Planner
+As a developer, I wanted to create README generator that can create Professional README file.
 
-  ## Table of Content :
+* Minimum requirements to create this project is as follow  : 
 
-  1. [Description](https://github.com/miraj00/readme-generator#description-) 
+1. Command line application would take user input by asking series of questions.
+1. It should ask for title of the project, description, installation, allows to select license if any, contributors and contact information. 
+1. Badge for the license is added near the top of README. 
+1. Github username should be added to README entitled Questions with a link to github profile. 
+1. Entered E-mail adress should be added to README entitled Questions. 
+1. Upon clicking the Table of Contents, it should take user to corresponding section of README. 
 
-  2. [Languages Used](https://github.com/miraj00/readme-generator#languages-used-)
-  
-  3. [How to Install](https://github.com/miraj00/readme-generator#how-to-install-)
-  
-  4. [How to use the application](https://github.com/miraj00/readme-generator#how-to-use-the-application-)
-  
-  5. [Licenses](https://github.com/miraj00/readme-generator#lincenses-)
-  
-  6. [Contributors](https://github.com/miraj00/readme-generator#lincenses-)
-  
-  7. [Questions / Reach Me](https://github.com/miraj00/readme-generator#questions-)
-  
+Below is the information on outcome of the project.
+
+## Description :
+README Generator is node.js based application. It works by asking series of questions to the user on command prompt and prints dynamic output of readme file. It uses Node.js's inquirer package  
  
+## Languages and other components used : 
+   * Node.js 
+   * FS (File systems) 
+   * npm (node package manager) 
+   * inquirer package
+  
+## How to install : 
+ 
+ To install the application in your computer follow the steps below: 
+ 
+ 1. Clone the repository in your computer :
+    - open the command line and go to the directory where you want to clone the repository.
+    - then clone the repo by typing : "git clone git@github.com:miraj00/readme-generator.git"
 
-  ## Description : 
-  National Park Trip Planner is API based application for Hikers and Campers. It provides data on Park Information and Weather for 48 hours
-  
-  ## Languages used : 
-  HTML, CSS, Javascript, JQuery, APIs
-  
-  ## How to Install :
-  You can access the site by going to https://miraj00.github.io/National-Park-Trip-Planner/
-  
-  ## How to use the application :
-  Use the Drop down menus on the left to select State and Park that you are looking to search for and it will show park information and weather
+ 2. Install node.js on your computer by going to https://nodejs.org/en/  
 
-  ## Screenshot of the Project :
-  ![Screenshot](./screenshot.JPG)
+ 3. Once node.js is installed, type "npm init" on the cammand line Terminal at root directory.
+    - This will initiate npm packages
+
+ 4. Install inquirer package by typing : "npm install inquirer" on the command line
+    - you don't have to answer all the question and can skip by pressing enter till end.
+    
+ 5. Once above steps are done, the application is ready to use.
+
+## How to use application : 
+You can use this application to generate README file. Once you follow the installation process as described above, go to command line and enter ' node index.js ' and it will go thru questionairie that will require input about your project. Upon finishing that questionairie it will generate readme file in ' dist folder '. To add screenshot in your project, create JPG file with the file name 'screenshot.JPG' and add in 'dist folder' along with README file. 
   
-  ## Lincenses :  
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-     
-  ## Contributors :
-  Jessica, Miraj, Ronnieve, Walter
+
+## Screenshot of the Project :
+
+#### Screenshot of command-line Questionairies :
+
+ ![Screenshot](./assets/images/command-line-questions.JPG)
+
+#### Screenshot of README file deployed after answering questions :
+
+ ![Screenshot](./assets/images/screenshot.JPG)
+
   
-  ## Questions / Reach Me :
-    * You can check my GITHUB REPOSITORY by Clicking Here : https://github.com/miraj00  
-    * You can reach me by emailing me at : miraj00@gmail.com
+## Link of Github Repository : [ Click here for GITHUB Link ](https://github.com/miraj00/readme-generator)  
+  
+
   
   
