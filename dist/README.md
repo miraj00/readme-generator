@@ -41,7 +41,7 @@
   Jessica, Miraj, Ronnieve, Walter
   
   ## Questions / Reach Me :
-    * You can check my GITHUB REPOSITORY by Clicking Here : https://github.com/miraj00  
+    * You can check my GITHUB REPOSITORY at : https://github.com/miraj00  
     * You can reach me by emailing me at : miraj00@gmail.com
   
   
