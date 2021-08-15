@@ -1,5 +1,5 @@
 
-  # hiiii   <br />   [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  # National Park Trip Planner   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Table of Content :
 
@@ -20,28 +20,28 @@
  
 
   ## Description : 
-  xddddd
+  National Park Trip Planner is an API based webapp that shows park information and weather for next 48 hours
   
   ## Languages used : 
-  HTML, Javascript
+  HTML, CSS, Javascript, Node
   
   ## How to Install :
-  ddddd
+  You can go to https:miraj00.github.io/national-park-trip-planner to access the website
   
   ## How to use the application :
-  dsddddd
+  Select the state from drop down menu from left and then pick a park. It will update API info on the right
 
   ## Screenshot of the Project :
   ![Screenshot](./screenshot.JPG)
   
   ## Lincenses :  
-  [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
      
   ## Contributors :
-  dddddddddddd dddddd
+  Jessica, Miraj, Ronnieve, Walter
   
   ## Questions / Reach Me :
-    * You can check my GITHUB REPOSITORY by Clicking Here : https://github.com/ddddd  
-    * You can reach me by emailing me at : dddddddd
+    * You can check my GITHUB REPOSITORY by Clicking Here : https://github.com/miraj00  
+    * You can reach me by emailing me at : miraj00@gmail.com
   
   

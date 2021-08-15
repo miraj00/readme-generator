@@ -45,7 +45,7 @@ You can use this application to generate README file. Once you follow the instal
   
 
 ## Demo of how to install, answers Questionairre and Use the output of README file :
-![Demo](video1.gif)
+![Demo](Demo.gif)
 
 
 ## Screenshot of the Project :

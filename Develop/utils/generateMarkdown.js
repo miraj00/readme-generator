@@ -1,6 +1,6 @@
 choices: [ 'MIT', 'Apache', 'GPL', 'Apache-2.0', 'BSD'] 
 
-// TODO: Create a function that returns a license badge based on which license is passed in
+// Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 
 function renderLicenseBadge(license) {
@@ -25,17 +25,7 @@ if (license == 'Other') {
 }
 
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-// function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-// function renderLicenseSection(license) {}
-
-
-
-// TODO: Create a function to generate markdown for README
+// Function to generate markdown for README :
 function generateMarkdown(data) {
 
   const { title, description, ...otherinfo } = data;
@@ -90,8 +80,10 @@ function generateMarkdown(data) {
     * You can check my GITHUB REPOSITORY by Clicking Here : https://github.com/${otherinfo.username}  
     * You can reach me by emailing me at : ${otherinfo.email}
   
-  
 `;
 }
 
 module.exports = generateMarkdown;
+
+
+
