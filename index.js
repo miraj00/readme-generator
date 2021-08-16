@@ -10,11 +10,27 @@ const promptUser = () => {
     type: 'input',
     name: 'title',
     message: 'Please Enter a Title of the Project :', 
+    validate: titleText => {
+        if(titleText){
+            return true;
+        } else {
+            console.log('Please Enter a Title of the Project');
+            return false;
+        }
+    }
 },
 {
     type: 'input',
     name: 'description',
     message: 'Please Enter a short Description about Project :',
+    validate: descriptionText => {
+        if(descriptionText){
+            return true;
+        } else {
+            console.log('Please Enter short Description');
+            return false;
+        }
+    }
 },
 {
     type: 'checkbox',
@@ -36,7 +52,7 @@ const promptUser = () => {
     type: 'list',
     name: 'license',
     message: 'Please select Licenses From List Below :',
-    choices: [ 'MIT', 'Apache', 'GPL', 'Apache-2.0', 'BSD', 'Other'] 
+    choices: [ 'MIT', 'GPL', 'Apache-2.0', 'BSD', 'Other'] 
 },
 {
     type: 'input',
@@ -47,11 +63,28 @@ const promptUser = () => {
     type: 'input',
     name: 'username',
     message: 'Please Enter Your Github Username :',
+    validate: userName => {
+        if(userName){
+            return true;
+        } else {
+            console.log('Please Provide a Github Username');
+            return false;
+        }
+    }
+    
 },
 {
     type: 'input',
     name: 'email',
     message: 'Please Enter Your E-mail Address :',
+    validate: eMail => {
+        if(eMail){
+            return true;
+        } else {
+            console.log('Please Enter your Email Address');
+            return false;
+        }
+    }
 }
    ]);
 };

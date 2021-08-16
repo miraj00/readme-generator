@@ -1,4 +1,4 @@
-choices: [ 'MIT', 'Apache', 'GPL', 'Apache-2.0', 'BSD'] 
+
 
 // Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
@@ -66,7 +66,9 @@ function generateMarkdown(data) {
   ${otherinfo.usage}
 
   ## Licenses 
-  Click on the License Badge for more information: ${licenseBadge}
+  ${licenseBadge} 
+  <br />
+   (*Note: You can get more information on license by Clicking on the License Badge above) 
      
   ## Contributors
   ${otherinfo.contributors}

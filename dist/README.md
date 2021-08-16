@@ -1,5 +1,5 @@
 
-  # title here   [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # National Park trip Planner   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Table of Content :
 
@@ -17,23 +17,25 @@
   
   7. [Questions](#questions)
 
-  ## Description
-  ddddddddddddddddddddddddddddddddddddddd
+  ## Description 
+  It is web app that provides information on park and weather for next 48 hours
   
   ## Languages  
-  HTML, Javascript, Bootstrap
+  HTML, Javascript, JQuery
   
   ## Installation 
-  this is how u install
+  You can go to web link and access the site
   
   ## Usage
-  usage of the application
+  Select the state and park information on the left and you will get the result on the right
 
-  ## Licenses
-  Click on the License Badge for more information: [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ## Licenses 
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+  <br />
+   (*Note: You can get more information on license by Clicking on the License Badge above) 
      
   ## Contributors
-  miraj, ronnieve, jessica
+  Jessica, Miraj, Ronneive, Walter
   
   ## Questions
 
