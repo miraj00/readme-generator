@@ -39,45 +39,41 @@ function generateMarkdown(data) {
 
   ## Table of Content :
 
-  1. [Description](https://github.com/miraj00/readme-generator#description-) 
+  1. [Description](#description)
 
-  2. [Languages Used](https://github.com/miraj00/readme-generator#languages-used-)
+  2. [Languages](#languages)
   
-  3. [How to Install](https://github.com/miraj00/readme-generator#how-to-install-)
+  3. [Installation](#installation)
   
-  4. [How to use the application](https://github.com/miraj00/readme-generator#how-to-use-the-application-)
+  4. [Usage](#usage)
   
-  5. [Licenses](https://github.com/miraj00/readme-generator#lincenses-)
+  5. [Licenses](#licenses)
   
-  6. [Contributors](https://github.com/miraj00/readme-generator#lincenses-)
+  6. [Contributors](#contributors)
   
-  7. [Questions / Reach Me](https://github.com/miraj00/readme-generator#questions-)
-  
- 
+  7. [Questions](#questions)
 
-  ## Description : 
+  ## Description 
   ${description}
   
-  ## Languages used : 
+  ## Languages  
   ${otherinfo.languages.join(', ')}
   
-  ## How to Install :
+  ## Installation 
   ${otherinfo.install}
   
-  ## How to use the application :
+  ## Usage
   ${otherinfo.usage}
 
-  ## Screenshot of the Project :
-  ![Screenshot](./screenshot.JPG)
-  
-  ## Lincenses :  
-  ${licenseBadge}
+  ## Licenses 
+  Click on the License Badge for more information: ${licenseBadge}
      
-  ## Contributors :
+  ## Contributors
   ${otherinfo.contributors}
   
-  ## Questions / Reach Me :
-    * You can check my GITHUB REPOSITORY by Clicking Here : https://github.com/${otherinfo.username}  
+  ## Questions
+
+    * You can check my GITHUB REPOSITORY at : https://github.com/${otherinfo.username}  
     * You can reach me by emailing me at : ${otherinfo.email}
   
 `;

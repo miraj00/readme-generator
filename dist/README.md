@@ -1,47 +1,42 @@
 
-  # National Park Trip Planner   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  # title here   [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Table of Content :
 
-  1. [Description](https://github.com/miraj00/readme-generator#description-) 
+  1. [Description](#description)
 
-  2. [Languages Used](https://github.com/miraj00/readme-generator#languages-used-)
+  2. [Languages](#languages)
   
-  3. [How to Install](https://github.com/miraj00/readme-generator#how-to-install-)
+  3. [Installation](#installation)
   
-  4. [How to use the application](https://github.com/miraj00/readme-generator#how-to-use-the-application-)
+  4. [Usage](#usage)
   
-  5. [Licenses](https://github.com/miraj00/readme-generator#lincenses-)
+  5. [Licenses](#licenses)
   
-  6. [Contributors](https://github.com/miraj00/readme-generator#lincenses-)
+  6. [Contributors](#contributors)
   
-  7. [Questions / Reach Me](https://github.com/miraj00/readme-generator#questions-)
-  
- 
+  7. [Questions](#questions)
 
-  ## Description : 
-  National Park Trip Planner is an API based webapp that shows park information and weather for next 48 hours
+  ## Description
+  ddddddddddddddddddddddddddddddddddddddd
   
-  ## Languages used : 
-  HTML, CSS, Javascript, Node
+  ## Languages  
+  HTML, Javascript, Bootstrap
   
-  ## How to Install :
-  You can go to https:miraj00.github.io/national-park-trip-planner to access the website
+  ## Installation 
+  this is how u install
   
-  ## How to use the application :
-  Select the state from drop down menu from left and then pick a park. It will update API info on the right
+  ## Usage
+  usage of the application
 
-  ## Screenshot of the Project :
-  ![Screenshot](./screenshot.JPG)
-  
-  ## Lincenses :  
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  ## Licenses
+  Click on the License Badge for more information: [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
      
-  ## Contributors :
-  Jessica, Miraj, Ronnieve, Walter
+  ## Contributors
+  miraj, ronnieve, jessica
   
-  ## Questions / Reach Me :
+  ## Questions
+
     * You can check my GITHUB REPOSITORY at : https://github.com/miraj00  
     * You can reach me by emailing me at : miraj00@gmail.com
-  
   
